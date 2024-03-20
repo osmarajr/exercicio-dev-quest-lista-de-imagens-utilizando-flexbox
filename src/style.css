@@ -1,11 +1,25 @@
 body{
     height: 100vh;
-    width: 100vw;
 }
-.lista-de-imagens{
+.container{
     margin:20px;
 }
-.lista-de-imagens ul{ 
+.lista-de-imagens{
+    display: fl;
+}
+.lista-de-imagens ul{
     display: flex;
-    gap: 20px;
+    width: 90vw;
+    gap: 10px;
+}
+.lista-de-imagens img{
+    width: 100%;
+}
+.lista-de-imagens .legenda{
+    transform: translateY(-5em);
+    color: #fff;
+    margin-left: 20px;
+}
+.lista-de-imagens .legenda h3{
+    margin-block: 5px;
 }

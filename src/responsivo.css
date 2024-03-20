@@ -1,0 +1,5 @@
+@media (max-width: 368px){
+    .lista-de-imagens ul{
+        flex-direction: column;
+    }
+}
