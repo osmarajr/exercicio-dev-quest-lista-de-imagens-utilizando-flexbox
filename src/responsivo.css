@@ -1,5 +1,7 @@
 @media (max-width: 768px){
     .lista-de-imagens ul{
         flex-wrap: wrap;
+
+        /* diminuir gap */
     }
 }

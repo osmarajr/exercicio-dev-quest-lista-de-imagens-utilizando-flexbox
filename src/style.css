@@ -1,14 +1,14 @@
 body{
-    height: 100vh;
+    min-height: 100vh;
 }
 .container{
     margin:20px;
 }
-.lista-de-imagens{
-    display: fl;
-}
 .lista-de-imagens ul{
     display: flex;
+    justify-content: center;
+    /* falta centralizar no eixo y */
+    /* align-items: center; */
     width: 90vw;
     gap: 10px;
 }
