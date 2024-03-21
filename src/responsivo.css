@@ -1,5 +1,5 @@
-@media (max-width: 368px){
+@media (max-width: 768px){
     .lista-de-imagens ul{
-        flex-direction: column;
+        flex-wrap: wrap;
     }
 }
